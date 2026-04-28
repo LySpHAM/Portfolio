@@ -97,7 +97,7 @@ function ScrollToTop() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/LySpHAMPortfolio>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
