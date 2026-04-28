@@ -97,7 +97,7 @@ function ScrollToTop() {
 
 export default function App() {
   return (
-    <BrowserRouter basename="/LySpHAMPortfolio>
+    <BrowserRouter basename="/LySpHAMPortfolio">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -106,7 +106,6 @@ export default function App() {
     </BrowserRouter>
   );
 }
-
 function HomePage() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [showBackToTop, setShowBackToTop] = useState(false);
